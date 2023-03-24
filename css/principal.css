@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Climate+Crisis&family=Rubik+Iso&family=Tilt+Prism&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#topo{
+	width: 90vw;
+	height: 13vh;
+	margin-left: 5vw;
+	background: linear-gradient(#084F8C,#62A1D9);
+}
+#logo{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+#menu{
+	width: 70%;
+	height: 100%;
+	margin-left: 30%;
+}
+ul.nav{
+	list-style-type: none;
+}
+ul.nav li{
+	margin-left: 2%;
+	float: left;
+	border-right: 2px inset black;
+	text-align: center;
+	width: 15%;
+	padding-top: 1%;
+	font-family: 'Climate Crisis', cursive;
+	font-size: 1.2rem;
+}
+ul.nav li ol{
+	display: none;
+	list-style-type: none;	
+}
+ul.nav li:hover ol{
+	display: block;
+}
+ul.nav li ol li{
+	float: none;
+	border-right: 0px;
+	width: auto;
+}
+ul.nav li ol li a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.1rem;
+}
+ul.nav li ol li a:hover{
+	color: darkblue;
+}
+#principal{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 85vh;
+}
+#principal iframe{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 0px;
+}
+#rodape{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 10vh;
+	background: linear-gradient(#084F8C,#62A1D9);
+}
+#endereco{
+	width: 50%;
+	margin-left: 10%;
+	float: left;
+	max-height: 10vh;
+	text-indent: 10%;
+	font-family: 'Anton', sans-serif;
+}
+#sobre{
+	width: 40%;
+	margin-left: 60%;
+	max-height: 10vh;
+	font-family: 'Anton', sans-serif;
+	font-size: 18pt;
+	padding-top: 2%;
+}
+form{
+	width: 60vw;
+	margin-left: 20vw;
+	margin-top: 20vh;
+	height: auto;
+	background: linear-gradient(#05F2AF,#04D9C4,#04B2D9);
+	border: 3px inset #7937A6;
+	border-radius: 20px;
+	font-family: 'Acme', sans-serif;
+	color: #F24495;
+}
+form h1{
+	font-family: 'Rubik Iso', cursive;
+	text-align: center;
+	font-size: 50pt;
+}
+form p{
+	text-indent: 20%;
+	font-size: 20pt;
+
+}
+form input.enviar{
+	margin-left: 25%;
+}
+form.login{
+	min-height: 15vh;
+	background: linear-gradient(#5FAAD9,#62A1D9,#337AA6,#084F8C);
+	border-radius: 100px;
+}
+h2{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+}
+h3{
+	text-align: center;
+}
+table{
+	margin-top: 10vh;
+	max-width: 80vw;
+	height: auto;
+	border: 2px inset blue;
+	margin-left: 9vw;
+}
+table th{
+	width: 1%;
+	border: 2px inset #63FD96;
+	background-color: #63BAFD;
+	color: #59E3AE;
+	font-size: 1.5rem;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+table td{
+	background-color: #6DFAEC;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.2rem;
+}
+span{
+	font-size: 30pt;
+}
+#radio{
+	margin-left: 25%;
+	size: 20px;
+}
+input.botao{
+	font-size: 1.1rem;
+}
+#prox{
+	width: 20vw;
+	margin-top: 0vh;
+	margin-left: 45vw;
+	height: auto;
+	background: white;
+	border: 0px;
+	border-radius: 0px;
+	font-family: 'Acme', sans-serif;
+	color: #F24495;
+}
